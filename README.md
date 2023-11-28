@@ -1,13 +1,13 @@
 # CMS : College Management System
 
-link to the website : https://rick-168.github.io/CMS/
+Link to the website : https://rick-168.github.io/CMS/
 
 # Student
 Username: student
 password: studentpassword
 
 # Teacher
-Username: teacher
+Username: teacher <br />
 Password: teacherpassword
 
 # Admin

@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: wheat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.notice-container {
+    text-align: center;
+    padding: 20px;
+    background-color: azure;
+    box-shadow: 0 0 10px black;
+    border-radius: 5px;
+}
+
+h1 {
+    color: #333;
+}
+
+#notices {
+    text-align: left;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#notices p {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: rgba(0, 0, 0, 0.719);
+    border-radius: 5px;
+    color:white
+}
+
+#notices p:hover{
+    color: wheat;
+}

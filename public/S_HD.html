@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="S_HD.css">
+    <title>Help Desk</title>
+</head>
+<body>
+
+    <div class="help-desk-container">
+        <h1>Help Desk</h1>
+
+        <div class="help-content">
+            <p>Welcome to our help desk! If you have any questions or issues, please fill out the form below.</p>
+        </div>
+
+        <div class="contact-form">
+            <h2>Contact Us</h2>
+            <form id="contactForm" onsubmit="submitForm(event)">
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="S_HD.js"></script>
+
+</body>
+</html>

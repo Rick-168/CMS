@@ -4,7 +4,7 @@ Link to the website : https://rick-168.github.io/CMS/
 
 # Student
 Username: student  <br />
-password: studentpassword
+Password: studentpassword
 
 # Teacher
 Username: teacher <br />

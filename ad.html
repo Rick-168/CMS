@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ad.css">
+    <title>Attendance Upload</title>
+</head>
+<body>
+
+    <div class="upload-container">
+        <h1>Upload Attendance</h1>
+
+        <form id="attendanceForm">
+            <label for="rollNumbers">Enter Roll Numbers:</label>
+            <textarea id="rollNumbers" name="rollNumbers" rows="5" required></textarea>
+
+            <label for="pdfFile">Upload Attendance PDF:</label>
+            <input type="file" id="pdfFile" name="pdfFile" accept=".pdf" required>
+
+            <button type="button" onclick="uploadAttendance()">Upload</button>
+        </form>
+
+        <div id="statusMessage"></div>
+    </div>
+
+    <script src="ad.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="S_assign.css">
+    <title>Assignment Upload</title>
+</head>
+<body>
+
+    <div class="upload-container">
+        <h1>Assignment Upload</h1>
+
+        <div class="subject">
+            <h2>Subject: Software Engineering</h2>
+            <form id="mathForm" enctype="multipart/form-data">
+                <label for="mathFile">Choose file:</label>
+                <input type="file" id="mathFile" name="assignment" accept=".pdf, .doc, .docx">
+                <button type="button" onclick="uploadAssignment('mathForm')">Upload</button>
+            </form>
+        </div>
+
+        <div class="subject">
+            <h2>Subject: Operating System</h2>
+            <form id="englishForm" enctype="multipart/form-data">
+                <label for="englishFile">Choose file:</label>
+                <input type="file" id="englishFile" name="assignment" accept=".pdf, .doc, .docx">
+                <button type="button" onclick="uploadAssignment('englishForm')">Upload</button>
+            </form>
+        </div>
+
+        <div class="subject">
+            <h2>Subject: Compiler Design</h2>
+            <form id="englishForm" enctype="multipart/form-data">
+                <label for="englishFile">Choose file:</label>
+                <input type="file" id="englishFile" name="assignment" accept=".pdf, .doc, .docx">
+                <button type="button" onclick="uploadAssignment('englishForm')">Upload</button>
+            </form>
+        </div>
+
+        <div class="subject">
+            <h2>Subject: Object Oriented Programming</h2>
+            <form id="englishForm" enctype="multipart/form-data">
+                <label for="englishFile">Choose file:</label>
+                <input type="file" id="englishFile" name="assignment" accept=".pdf, .doc, .docx">
+                <button type="button" onclick="uploadAssignment('englishForm')">Upload</button>
+            </form>
+        </div>
+
+        <div class="subject">
+            <h2>Subject: Artificial Intelligence</h2>
+            <form id="englishForm" enctype="multipart/form-data">
+                <label for="englishFile">Choose file:</label>
+                <input type="file" id="englishFile" name="assignment" accept=".pdf, .doc, .docx">
+                <button type="button" onclick="uploadAssignment('englishForm')">Upload</button>
+            </form>
+        </div>
+        <!-- Add more subjects as needed -->
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

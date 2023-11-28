@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="T_assign.css">
+    <title>Assignment Portal</title>
+</head>
+<body>
+
+    <div class="portal-container">
+        <h1>Assignment Portal</h1>
+
+        <!-- Teacher's Section -->
+        <div class="teacher-section">
+            <h2>Teacher's Section</h2>
+            <form id="uploadQuestionForm" onsubmit="uploadAssignment('questions')">
+                <label for="subjectQuestion">Subject:</label>
+                <select id="subjectQuestion" name="subject" required>
+                    <option value="SWE">Software Engineering</option>
+                    <option value="OS">Operating System</option>
+                    <option value="CD">Compiler Design</option>
+                    <option value="OOP">Object Oriented Programming</option>
+                    <option value="AI">Artificial Intelligence</option>
+                    <!-- Add more subjects as needed -->
+                </select>
+
+                <label for="questionFile">Upload Question PDF:</label>
+                <input type="file" id="questionFile" name="question" accept=".pdf" required>
+
+                <button type="submit">Submit Question</button>
+            </form>
+        </div>
+
+        </div>
+    </div>
+
+    <script src="T_assign.js"></script>
+
+</body>
+</html>
